@@ -12,7 +12,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/motorola/tesla/device.mk)
 
 PRODUCT_DEVICE := tesla
-PRODUCT_NAME := omni_tesla
+PRODUCT_NAME := twrp_tesla
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto edge (2022)
 PRODUCT_MANUFACTURER := motorola
