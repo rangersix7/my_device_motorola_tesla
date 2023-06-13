@@ -5,6 +5,9 @@
 
 DEVICE_PATH := device/motorola/tesla
 
+# Set TWRP Recovery
+RECOVERY_VARIANT := twrp
+
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
