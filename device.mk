@@ -17,8 +17,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.mt6879
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.mt6879 \
+#PRODUCT_STATIC_BOOT_CONTROL_HAL := \     #This is no longer used in AOSP 12.
+    bootctrl.mt6879 \                     #Looking for a fix.  
     libgptutils \
     libz \
     libcutils
